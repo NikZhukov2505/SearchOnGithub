@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.avatar{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#inp{
+    width: 300px;
+    height: 40px;
+    background: rgb(1, 5, 41);
+    color: white;
+    padding-left: 15px;
+    border-radius: 3px;
+    box-shadow: rgb(17, 4, 126) 5px 0px 20px;
+}
+body{
+    background: rgb(1, 5, 41);
+}
+header {
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(2, 3, 54);
+    padding: 20px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    white;
+}
+#btn{
+    width: 50px;
+    height: 38px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgb(17, 4, 126) 5px 0px 20px;
+    transition: 0.8s  0s;
+}
+#btn:hover{
+    background-color: blue;
+    
+}
+h1{
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.568);
+}
+.output{
+    margin-left: 15%;
+}
+h2{
+    color: rgba(255, 255, 255, 0.644);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px 0px 10px 9%;
+}
+h3{
+    color: rgba(255, 255, 255, 0.644);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 9%;
+}
+.follow{
+    display: flex;
+    text-align: center;
+    margin-left: 9%;
+    padding-top: 20px;
+}
+span{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    
+}
+p{
+    color: rgba(255, 0, 0, 0.644);
+    padding-left: 7%;
+    padding-top: 15px;
+    font-size: 16px;
+}
